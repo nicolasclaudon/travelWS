@@ -1,4 +1,5 @@
-# Travel #
+# TravelWS #
+TravelWS is a Rest wrapper around Spark to recommends travel.
 
 ## Build & Run ##
 
