@@ -1,47 +1,69 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 
-# Folder config file
-Desktop.ini
+# rails specific
+*.sqlite3
+config/database.yml
+log/*
+tmp/*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# java specific
+*.class
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# python specific
+*.pyc
 
-# Windows shortcuts
-*.lnk
+# xcode/iphone specific
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
 
-# =========================
-# Operating System Files
-# =========================
+# akka specific
+logs/*
 
-# OSX
-# =========================
+# sbt specific
+target/
+project/boot
+lib_managed/*
+project/build/target
+project/build/lib_managed
+project/build/src_managed
+project/plugins/lib_managed
+project/plugins/target
+project/plugins/src_managed
+project/plugins/project
 
-.DS_Store
-.AppleDouble
-.LSOverride
+core/lib_managed
+core/target
+pubsub/lib_managed
+pubsub/target
 
-# Thumbnails
-._*
+# eclipse specific
+.metadata
+jrebel.lic
+.settings
+.classpath
+.project
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+.ensime*
+*.sublime-*
+.cache
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# intellij
+*.eml
+*.iml
+*.ipr
+*.iws
+.*.sw?
+.idea
+
+# paulp script
+/.lib/
